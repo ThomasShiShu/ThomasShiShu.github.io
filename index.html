@@ -1,56 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Beautiful HTML Cover Page</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的精美封面</title>
     <style>
-      body {
-        background-color: #f2f2f2;
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-        line-height: 1.6;
-        color: #333333;
-      }
-      .container {
-        width: 100%;
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-      h1 {
-        font-size: 48px;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 80px;
-        margin-bottom: 20px;
-      }
-      p {
-        font-size: 24px;
-        text-align: center;
-        margin-bottom: 40px;
-      }
-      .button {
-        display: inline-block;
-        padding: 12px 24px;
-        border-radius: 5px;
-        background-color: #007bff;
-        color: #ffffff;
-        font-size: 20px;
-        text-decoration: none;
-        transition: all 0.2s ease-in-out;
-      }
-      .button:hover {
-        background-color: #0069d9;
-        color: #ffffff;
-        transform: scale(1.1);
-      }
+        /*设置背景图片*/
+        body {
+            background-image: url("https://picsum.photos/1920/1080");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        /*居中标题*/
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 5rem;
+            margin-top: 10%;
+        }
+        /*居中按钮*/
+        button {
+            margin-top: 5%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            background-color: #fff;
+            color: #000;
+            border: none;
+            border-radius: 2rem;
+        }
+        /*设置按钮悬停样式*/
+        button:hover {
+            cursor: pointer;
+            background-color: #000;
+            color: #fff;
+        }
     </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Welcome to My Beautiful HTML Cover Page</h1>
-      <p>This is a simple and beautiful HTML cover page.</p>
-      <a href="#" class="button">Get Started</a>
-    </div>
-  </body>
+</head>
+<body>
+    <h1>欢迎来到我的世界</h1>
+    <button>了解更多</button>
+</body>
 </html>
